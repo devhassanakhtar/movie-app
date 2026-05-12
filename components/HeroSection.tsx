@@ -20,7 +20,7 @@ const HeroSection = ({movies, searchTerm, setSearchTerm}: IHeroSectionProps) => 
           <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-red-500 shadow-lg mb-4">
             <Popcorn className="h-7 w-7" />
           </div>
-          <h1 className="text-7xl font-black tracking-tight">MovieBox</h1>
+          <h1 className="text-7xl font-black tracking-tight">MovieHub</h1>
           <p className="md:text-2xl text:sm tracking-tight font-light mb-4 text-santas-gray">
             Discover the most popular movies trending right now
           </p>
