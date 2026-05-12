@@ -19,7 +19,7 @@ export default function Home() {
         {
           headers: {
             accept: "application/json",
-            Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMBD_API_KEY}`,
+            Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
           },
         },
       );
