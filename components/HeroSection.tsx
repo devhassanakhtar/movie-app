@@ -15,13 +15,13 @@ interface IHeroSectionProps {
 const HeroSection = ({movies, searchTerm, setSearchTerm}: IHeroSectionProps) => {
   return (
     <header className="relative h-[70vh]">
-      <div className="w-5/12 z-10 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+      <div className="lg:w-5/12 md:w-9/12 z-10 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
         <div className="flex items-center justify-center flex-col mb-4 gap-4">
           <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-red-500 shadow-lg mb-4">
             <Popcorn className="h-7 w-7" />
           </div>
           <h1 className="text-7xl font-black tracking-tight">MovieBox</h1>
-          <p className="text-2xl tracking-tight font-light mb-4 text-santas-gray">
+          <p className="md:text-2xl text:sm tracking-tight font-light mb-4 text-santas-gray">
             Discover the most popular movies trending right now
           </p>
         </div>
